@@ -1,0 +1,19 @@
+# GitHub 저장소 초기화를 위한 명령어
+
+# 1. 현재 디렉토리를 Git 저장소로 초기화
+git init
+
+# 2. 모든 파일을 스테이징
+git add .
+
+# 3. 첫 번째 커밋 생성
+git commit -m "Initial commit: YouTube Content Analyzer Project"
+
+# 4. GitHub 원격 저장소 추가 (URL은 본인의 GitHub 저장소 URL로 변경)
+git remote add origin https://github.com/yourusername/youtube-analyzer.git
+
+# 5. 변경사항을 원격 저장소로 푸시
+git push -u origin main
+
+# 참고: 기본 브랜치가 'master'인 경우 아래 명령어 사용
+# git push -u origin master 
